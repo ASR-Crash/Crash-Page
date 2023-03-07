@@ -1,0 +1,118 @@
+html {
+  font-size: 20px;
+  font-family: 'STXinwei', sans-serif;
+  background-color: black;
+  background-image: 
+  linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(0,0,255,0.3)),
+  url('../images/PCBrender.jpg');
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  background-color:dimgray;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+@media (max-width: 50em) {
+  body {
+    background-color: black;
+  }
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color:aliceblue;
+  text-shadow: 4px 4px 4px black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.img-round {
+  border-radius: 30px;
+}
+
+p, li {
+  font-size: 20px;
+  /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+li{
+  list-style-type: square;
+  text-decoration: underline;
+}
+.special {
+  color: white;
+  font-weight: bold; 
+}
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color:skyblue;
+}
+
+a:focus {
+  color: green;
+}
+
+a:hover {
+  background: #BAE498;
+}
+
+a:active {
+  color: red;
+}
+
+a[href*="http"] {
+  background: url('https://img.icons8.com/metro/26/000000/external-link.png') no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+.box-rotate {
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  transform: rotate(30deg)
+}
+
+.box-bg {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: powderblue;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+  background-image: url(../images/科研联盟logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 3%;
+}
+
+.ver {
+  writing-mode: vertical-rl;
+  color: white;
+  background-color: black;
+}
+
+.gradient {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: powderblue;
+  background-image: linear-gradient(90deg, rgba(119,0,255,1) 39%, rgba(0,212,255,1) 100%);
+}
